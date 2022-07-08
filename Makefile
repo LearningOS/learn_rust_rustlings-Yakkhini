@@ -7,7 +7,7 @@ setupclassroom:
 	git add .github/classroom/autograding.json
 	git add .github/workflows/classroom.yml
 	git add .github/.keep
-	git commit -m"update classroom.yml .keep autograding.json for classroom CI test"
+	git commit -S -m"update classroom.yml .keep autograding.json for classroom CI test"
 	git push
 
 # for github codespaces ubuntu with zsh SHELL, need root for sudo
